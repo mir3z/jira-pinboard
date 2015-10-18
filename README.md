@@ -8,7 +8,7 @@ then
 
 or
 
-`npm run start [-- options]`
+`npm run app [-- options]`
 
 # Configuration
 
