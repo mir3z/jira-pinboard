@@ -1,0 +1,80 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.error {
+    color: red;
+}
+
+.card {
+    box-sizing: border-box;
+    width: 310px;
+    height: 310px;
+    padding: 5px;
+    margin-bottom: -1px;
+    margin-right: -1px;
+    border: 1px solid #555;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.ghx-label-0 { color:#707070; background-color:#fff; }
+.ghx-label-1 { color:#fff; background-color:#815b3a; }
+.ghx-label-2 { color:#fff; background-color:#f79232; }
+.ghx-label-3 { color:#fff; background-color:#d39c3f; }
+.ghx-label-4 { color:#fff; background-color:#3b7fc4; }
+.ghx-label-5 { color:#fff; background-color:#4a6785; }
+.ghx-label-6 { color:#fff; background-color:#8eb021; }
+.ghx-label-7 { color:#fff; background-color:#ac707a; }
+.ghx-label-8 { color:#fff; background-color:#654982; }
+.ghx-label-9 { color:#fff; background-color:#f15c75; }
+
+.key, .points {
+    font-size: 16px;
+}
+
+.key {
+    float: left;
+}
+
+.points {
+    float: right;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 18px;
+}
+
+.summary {
+    box-sizing: border-box;
+    font-size: 28px;
+    line-height: 34px;
+    word-wrap: break-word;
+    padding-top: 20px;
+    text-align: center;
+    position: relative;
+    top: 46%;
+    transform: translateY(-50%);
+}
+
+.epic {
+    font-size: 15px;
+    padding: 5px;
+    position: absolute;
+    bottom: 1px;
+    left: 1px;
+    right: 1px;
+    text-align: center;
+}
+
+@media print {
+    .card {
+        page-break-after: always;
+        page-break-inside: avoid;
+        vertical-align: middle;
+        -webkit-print-color-adjust: exact;
+    }
+}

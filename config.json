@@ -1,0 +1,20 @@
+{
+    "jira": {
+        "protocol": "",
+        "host": null,
+
+        "board": {
+            "id": null
+        },
+
+        "auth": {
+            "username": null,
+            "password": null
+        }
+    },
+
+    "app": {
+        "host": "localhost",
+        "port": 8080
+    }
+}
